@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Gastronomia</title>
+   <link rel="stylesheet" href="foundation/css/foundation.css">
+   <link rel="stylesheet" href="foundation/css/app.css">
+   <link rel="stylesheet" href="foundation/foundation-icons/foundation-icons.css">
+   <link href="http://allfont.es/allfont.css?fonts=tangerine" rel="stylesheet" type="text/css" />
+   <style media="screen">
+      body {
+         background-image: url("../imagenes/fondoTextura.jpg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: 100% 100%;
+      }
+
+      .contenedor {
+         border-radius: 10px;
+         background: rgba(156, 112, 0, 0.5);
+      }
+
+      .header .subHeader,
+      .contenido {
+         background-color: rgba(241, 241, 241, 0.53);
+         border-radius: 7px;
+      }
+
+      .imagenHeader {
+         padding: 10px;
+      }
+
+
+
+      .padding{
+        padding: 10px;
+        background:rgba(255,255,255,.52);
+        border-radius: 5px;
+      }
+
+      h1 {
+         font-size: 60px;
+      }
+
+      h2 {
+         font-size: 45px;
+      }
+
+      h1,
+      h2,
+      h3 {
+         font-family: 'Tangerine', arial;
+         text-shadow: 4px 4px 4px white;
+         color: black;
+      }
+
+      .historial,
+      .menu,
+      .resena {
+         font-family: 'Tangerine', arial;
+         font-size: 30px;
+      }
+
+      .menu ul li a{
+
+      }
+
+      .header img{
+         border-radius:5px;
+      }
+
+      .header img,
+      .subheader {
+         height: 7.7rem;
+      }
+
+      .header .sub {
+         margin: 10px 0px 10px;
+      }
+
+      .header,
+      .slogan {
+         text-align: right;
+      }
+
+      .favoritos .callout {
+         background: rgba(255, 255, 255, 0.11);
+      }
+
+      .resena {
+         font-family: 'Tangerine', arial;
+         color: black;
+      }
+
+      nav ul {
+         list-style: none;
+      }
+
+      ul li a {
+         color: black;
+      }
+
+      input[type="submit"] {
+         background: #ef5350;
+      }
+      input[type="text"]{
+        background-color: rgba(255,255,255,.55);
+
+      }
+
+      .menu ul li {
+         border: solid 1px rgb(65, 65, 55);
+         border-radius: 5px;
+         text-align: center;
+         margin-bottom: 10px;
+         box-shadow: 4px 4px 10px black;
+      }
+
+      .imagen {
+         background-color: lightgray;
+      }
+
+      img {
+         width: 100%;
+         height: 100%
+      }
+   </style>
+</head>
+
+<body>
+
+   <div class="row contenedor column large-10">
+
+      <div class="column large-12 small-12 header">
+         <div class="column large-4 sub" style="  border-right: solid 1px lightgray;">
+            <div class="column large-12 small-12 subHeader">
+               <h1>
+          <b>Fuego Lento</b>
+            </h1>
+               <h3>
+          Te atreves?</h3>
+            </div>
+         </div>
+         <div class="column large-8 show-for-large imagenHeader" >
+           <div class="column large-12 padding">
+            <img src="../imagenes/imgHeader.jpg" alt="">
+            </div>
+         </div>
+      </div>
+      <hr>
+
+      <!-- seccion principal............................................................ -->
+      <div class="column large-12">
+         <!-- bloque izquierdo .......................................................-->
+         <div class="column large-4" style="border-right:solid 1px lightgray;">
+            <div class="callout contenido" style="border-radius:7px;">
+               <div class="row">
+                  <div class="column lg-12">
+                     <form class="" action="index.html" method="post">
+                        <div class="input-group">
+                           <span class="input-group-label fi-magnifying-glass" style="border-radius:40px 0 0 40px;"></span>
+                           <input class="input-group-field" type="text" placeholder="Buscar...">
+                           <div class="input-group-button">
+                              <input type="submit" class="button" value="Buscar" style="border-radius:0px 40px 40px 0px;">
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12 menu">
+                     <nav>
+                        <ul>
+                            <li >
+                              <a  href="../index.html">Musica</a>
+                            </li>
+                           <li style="text-decoration: underline;">
+                             <a href="#">Gastronomia</a>
+                           </li>
+                           <li>
+                             <a href="turismo.html">Turismo</a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+
+               <div class="row favoritos">
+                  <div class="column lg-12 ">
+                     <h2>Favoritos:</h2>
+                     <div class="columns large-4 medium-4 small-12 ">
+                           <img src="../imagenes/subImagen1.jpg" alt="" class="float-center">
+                     </div>
+                     <div class="columns large-4 medium-4 small-12  ">
+                           <img src="../imagenes/subImagen2.jpg" alt="" class="float-center">
+                     </div>
+                     <div class="columns large-4 medium-4 small-12  ">
+                           <img src="../imagenes/subImagen3.jpg" alt="" class="float-center">
+                     </div>
+                     <div class="columns large-4 medium-4 small-12  ">
+                           <img src="../imagenes/subImagen4.jpg" alt="" class="float-center">
+                     </div>
+                     <div class="columns large-4 medium-4 small-12  ">
+                           <img src="../imagenes/subImagen5.jpg" alt="" class="float-center">
+                     </div>
+                     <div class="columns large-4 medium-4 small-12">
+                           <img src="../imagenes/subImagen6.jpg" alt="" class="float-center">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12 historial">
+                     <h2>Historial</h2>
+                     <ul>
+                        <li> <a href="#">Morton's The Steakhouse</a></li>
+                        <li> <a href="#">California Uramaki</a></li>
+                        <li> <a href="#">Chicken Tandoori</a></li>
+                        <li> <a href="#">Conejo al vino tinto</a></li>
+                        <li> <a href="#">Espaghetti a la Bolognesa</a></li>
+                        <li> <a href="#">Fideos Pad Thai</a></li>
+                        <li> <a href="#">Lentejas estofadas</a></li>
+                        <li> <a href="#">Magret de Pato</a></li>
+                        <li> <a href="#">Paella de Marisco</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+         <!-- bloque de la seccion derecha................................................ -->
+         <div class="column large-8">
+            <div class="callout contenido">
+               <div class="row">
+                  <div class="column large-12">
+                     <h2>Pollo Agridulce<br><h6>24-Mayo-2016</h6></h2>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <div class="callout imagen" style="height:20rem;">
+                        <img src="../imagenes/platillo1.jpg" alt="" style="width:100%; height:100%; ">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12 resena">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+               </div>
+               <br>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <form class="" action="index.html" method="post">
+                        <div class="input-group">
+                           <span class="input-group-label fi-torso" style="border-radius:40px 0 0 40px;"></span>
+                           <input class="input-group-field" type="text" placeholder="Comentario...">
+                           <div class="input-group-button">
+                              <input type="submit" class="button" value="Enviar" style="border-radius:0px 40px 40px 0px;">
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <h5>Comentarios</h5>
+                  </div>
+                  <div class="column large-12 comentarios">
+                     <div class="column large-12">
+                        <div class="column large-2 small-2 " style="background:;">
+                           <img src="../imagenes/avatar1.png" alt="" width="100%">
+                        </div>
+                        <div class="column large-10 small-10">
+                           <div class="row">
+                              <a href="#">Carla  Ruiz</a>
+                           </div>
+                           <p>Especial mención merecen las pastas y los arroces. Algunos de los platillos más reconocidos de estas c ategorías son la lasaña, los macarrones</p>
+                        </div>
+                        <hr>
+                     </div>
+
+                     <div class="column large-12">
+                        <div class="column large-2 small-2" style="background:;">
+                           <img src="../imagenes/avatar2.jpg" alt="" width="100%">
+                        </div>
+                        <div class="column large-10 small-10">
+                           <div class="row">
+                              <a href="#">Monika Gallegos</a>
+                           </div>
+                           <p>Especial mención merecen las pastas y los arroces. Algunos de los platillos más reconocidos de estas categorías son la lasaña, los macarrones, los ravioles, los tortellinis, los cappellettis, los risottos, entre otros.</p>
+                        </div>
+                        <hr>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+         <!-- segundo artculo -->
+
+         <div class="column large-8">
+            <div class="callout contenido">
+               <div class="row">
+                  <div class="column large-12">
+                     <h2>Morton's The Steakhouse <br><h6>14-dicimebre-2015</h6></h2>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <div class="callout imagen" style="height:20rem;">
+                        <img src="../imagenes/platillo2.jpg" alt="" style="width:100%; height:100%; ">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12 resena">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+               </div>
+               <br>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <form class="" action="index.html" method="post">
+                        <div class="input-group">
+                           <span class="input-group-label fi-torso" style="border-radius:40px 0 0 40px;"></span>
+                           <input class="input-group-field" type="text" placeholder="Comentario...">
+                           <div class="input-group-button">
+                              <input type="submit" class="button" value="Enviar" style="border-radius:0px 40px 40px 0px;">
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column large-12">
+                     <h5>Comentarios</h5>
+                  </div>
+                  <div class="column large-12 comentarios">
+                     <div class="column large-12">
+                        <div class="column large-2 small-2 " style="background:;">
+                           <img src="../imagenes/avatarH1.jpg" alt="" width="100%">
+                        </div>
+                        <div class="column large-10 small-10">
+                           <div class="row">
+                              <a href="#">Christian R.</a>
+                           </div>
+                           <p>Especial mención merecen las pastas y los arroces. Algunos de los platillos más reconocidos de estas c ategorías son la lasaña, los macarrones</p>
+                        </div>
+                        <hr>
+                     </div>
+
+                     <div class="column large-12">
+                        <div class="column large-2 small-2" style="background:;">
+                           <img src="../imagenes/avatarh2.png" alt="" width="100%">
+                        </div>
+                        <div class="column large-10 small-10">
+                           <div class="row">
+                              <a href="#">Jorge C.L.</a>
+                           </div>
+                           <p>Especial mención merecen las pastas y los arroces. Algunos de los platillos más reconocidos de estas categorías son la lasaña, los macarrones, los ravioles, los tortellinis, los cappellettis, los risottos, entre otros.</p>
+                        </div>
+                        <hr>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+
+   <script src="foundation/js/vendor/jquery.js"></script>
+   <script src="foundation/js/vendor/what-input.js"></script>
+   <script src="foundation/js/vendor/foundation.js"></script>
+   <script src="foundation/js/app.js"></script>
+</body>
+
+</html>
